@@ -160,6 +160,24 @@ li {
     box-shadow: 0 1px 3px rgba(27, 95, 160, .1);
 }
 
+.sidebar>ul>li {
+    padding: 10px 0;
+}
+.sidebar>ul>li>ul>li {
+    padding: 5px 0;
+}
+.sidebar>ul>li>ul>li>ul>li {
+    padding: 5px 0;
+}
+
+#searchform .search-text {
+    height: 40px;
+}
+
+#searchform .search-btn {
+    height: 40px;
+}
+
 .footer {
     text-align: center;
     padding: 20px 0;
