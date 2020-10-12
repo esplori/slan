@@ -48,6 +48,7 @@ li {
 }
 
 .main-container {
+    padding: 20px 0;
     width: 65%;
     word-break: break-all;
     background-color: #fff;
@@ -111,10 +112,12 @@ li {
     padding: 2px 10px;
     background-color: #e6f1fb;
 }
-.article-tag ul li a{
+
+.article-tag ul li a {
     color: #06c;
 }
-.article .article-post-date{
+
+.article .article-post-date {
     padding: 0 10px;
 }
 
@@ -125,6 +128,29 @@ li {
 
 .single-pagination {
     text-align: center;
+}
+
+.single-article .single-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #141414;
+}
+
+.single-article .single-content {
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    text-align: justify;
+    color: #4a4a4a;
+    font-weight: 400;
+    word-break: break-word;
+}
+
+.single-article .single-info {
+    padding: 20px 0;
+    font-size: 14px;
+    color: #a4a4a4;
 }
 
 .sidebar {
