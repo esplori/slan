@@ -1,0 +1,2 @@
+# slan
+a wordpress theme
