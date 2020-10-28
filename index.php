@@ -15,7 +15,7 @@
                             }
                             ?>
                         </div>
-                        <span class="article-post-date"><?php the_time('Y-n-j'); ?></span>
+                        <span class="article-post-date"><?php echo get_the_date('Y年m月d日'); ?></span>
                     </div>
                 </div>
             <?php endwhile; ?>

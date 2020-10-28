@@ -6,7 +6,7 @@
                 <div class="single-article">
                     <h2 class="single-title"><?php the_title(); ?></h2>
                     <div class="single-info">
-                        <span class="article-post-date"><?php the_time('Y-n-j'); ?></span>
+                        <span class="article-post-date"><?php the_time('Y-m-d H:i l'); ?></span>
                     </div>
                     <h3 class="single-content"><?php the_content(); ?></h3>
                 </div>

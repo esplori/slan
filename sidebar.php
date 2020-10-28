@@ -7,18 +7,18 @@
             <li id="search">
                 <?php include(TEMPLATEPATH . '/searchform.php'); ?>
             </li>
-            <li>
-                <!-- <h3><?php _e('Categories'); ?></h3> -->
+            <!-- <li>
+                <h3><?php _e('Categories'); ?></h3>
                 <ul>
                     <?php wp_list_categories('orderby=name&show_count=0') ?>
                 </ul>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
                 <h3><?php _e('Archives'); ?></h3>
                 <ul>
                     <?php wp_get_archives('type=monthly') ?>
                 </ul>
-            </li>
+            </li> -->
             <li>
                 <h3><?php _e('Meta'); ?></h3>
                 <ul>
